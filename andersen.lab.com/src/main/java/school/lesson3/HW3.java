@@ -1,6 +1,6 @@
 package school.lesson3;
 
-public class HW4 {
+public class HW3 {
     public static void main(String[] args) {
         Person[] persArray = new Person[5];
         persArray[0] = new Person("Ivanov Ivan", "Engineer", "ivivan@mailbox.com", "892232112", 30000, 30);

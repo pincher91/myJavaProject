@@ -4,7 +4,7 @@ public class CatsAndPlates {
     public static class Main {
         public static void main(String[] args) {
             System.out.println("Список котиков:");
-            Cats[] cat = {new Cats("Матроскин", 100), new Cats("Пушок", 150), new Cats("Барсик", 80)};
+            Cats[] cat = {new Cats("Матроскин", 100), new Cats("Пушок", 50), new Cats("Барсик", 30)};
             Plate plate = new Plate(100);
             for (Cats c : cat) {
                 System.out.println(c);

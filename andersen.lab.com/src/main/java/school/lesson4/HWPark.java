@@ -16,7 +16,6 @@ public class HWPark {
 
 class Park {
     private ArrayList<Attraction> list;
-    private String workTime;
 
     public Park() {
         this.list = new ArrayList<Attraction>();
@@ -24,7 +23,6 @@ class Park {
 
     public void parkList(String name, double price, String worktime) {
         this.list.add(new Attraction(name, price, worktime));
-        this.workTime = worktime;
     }
 
     @Override
